@@ -1,0 +1,10 @@
+<body>
+  <section>
+    <div class="header" [formGroup]="loginForm">
+      <img src="../../../assets/undraw_male_avatar_323b.svg" alt="undraw_male_avatar_323b">
+      <input type="text" formControlName="emailControl">
+      <input type="password" formControlName="passControl">
+      <button (click)="loginFucntion(loginForm)">Login</button>
+    </div>
+  </section>
+</body>
